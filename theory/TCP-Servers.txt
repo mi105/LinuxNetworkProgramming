@@ -1,0 +1,24 @@
+Sequence of steps
+Server
+1. Create socket
+2. Bind port number
+3. Setup a queue for incoming connection requests on the socket - listen
+4. Accept - system call
+5. Read request
+6. Write reply
+7. Close connection
+
+Client
+1. Create socket
+2. Connect to server using its ip address and port number 
+3. Write request
+4. Read reply
+5. Close connection
+
+sockaddr_in data structure          ***_in stands for internet
+consists of 
+1. Address family (AF_INET)
+2. Port 
+3. IPV4 address - 32 bit
+4. Pad to size of generic sockaddr struct
+
