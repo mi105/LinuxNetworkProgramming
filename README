@@ -7,3 +7,9 @@ in Computer Networks, Mathematical Faculty, University of Belgrade
 
 There are also other learning materials, mostly based on insights and knowledge
 gained from appropriate tutorialspoint and pluralsight courses on the subject.
+
+Useful comands:
+
+searching manpages: 
+man -k <regex> -s <sectionNo>
+ 
